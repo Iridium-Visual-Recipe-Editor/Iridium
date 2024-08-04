@@ -675,7 +675,6 @@
             eventCode2.ReadOnly = true;
             eventCode2.Size = new Size(638, 22);
             eventCode2.TabIndex = 3;
-            eventCode2.Text = "})";
             // 
             // eventCode1
             // 
@@ -686,7 +685,6 @@
             eventCode1.ReadOnly = true;
             eventCode1.Size = new Size(638, 22);
             eventCode1.TabIndex = 0;
-            eventCode1.Text = "SeverEvents.recipes(event => {";
             // 
             // addrecipetypes
             // 

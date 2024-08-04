@@ -981,7 +981,7 @@ namespace Iridium
                 {
                     if (recognizedMinecraftVersions.IndexOf(minecraftVer) <= 9)
                     {
-                        eventCode1.Text = "SeverEvents.recipes(event => {";
+                        eventCode1.Text = "ServerEvents.recipes(event => {";
                         eventCode2.Text = "})";
                     }
                     else
@@ -992,7 +992,7 @@ namespace Iridium
                 }
                 else
                 {
-                    eventCode1.Text = "SeverEvents.recipes(event => {";
+                    eventCode1.Text = "ServerEvents.recipes(event => {";
                     eventCode2.Text = "})";
                 }
             }
